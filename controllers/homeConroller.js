@@ -11,7 +11,7 @@ const home = {};
 
 // home page controller
 home.homeController = (req, res) => {
-    res.render('pages/home');
+    res.render('pages/home/home', { title: 'Home' });
 };
 
 // export moudle
